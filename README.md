@@ -19,7 +19,7 @@
 <tr>
 
 </div>
-<p align = 'center'>step 1 </p>
+<b align = 'center'>step 1 </b>
 <p align = 'center'>
 	<img src = '/slv/1.png'/>
 </p>
