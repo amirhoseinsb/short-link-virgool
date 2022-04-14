@@ -17,9 +17,9 @@
 5 : copy the short link :)
 <br>
 <tr>
+<br>
 
 </div>
-<b align = 'center'>step 1 </b>
 <p align = 'center'>
 	<img src = '/slv/1.png'/>
 </p>
