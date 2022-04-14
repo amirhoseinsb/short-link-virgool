@@ -15,9 +15,11 @@
 4 : copy the url in browser and paste in the script & Enter
 <br>
 5 : copy the short link :)
+<br>
+<tr>
 
 </div>
-
+<p align = 'center'>step 1 </p>
 <p align = 'center'>
 	<img src = '/slv/1.png'/>
 </p>
