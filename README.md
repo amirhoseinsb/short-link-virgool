@@ -21,25 +21,25 @@
 
 </div>
 <p align = 'center'>
-	<img src = '/slv/1.png'/>
+	<img src = '/slv/screen1.png'/>
 </p>
 
 <p align = 'center'>
-	<img src = '/slv/2.png'/>
+	<img src = '/slv/screen2.png'/>
 </p>
 
 <p align = 'center'>
-	<img src = '/slv/3.png'/>
+	<img src = '/slv/screen3.png'/>
 </p>
 
 <p align = 'center'>
-	<img src = '/slv/4.png'/>
+	<img src = '/slv/screen4.png'/>
 </p>
 
 <p align = 'center'>
-	<img src = '/slv/5.png'/>
+	<img src = '/slv/screen5.png'/>
 </p>
 
 <p align = 'center'>
-	<img src = '/slv/6.png'/>
+	<img src = '/slv/screen6.png'/>
 </p>
