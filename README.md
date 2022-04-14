@@ -13,5 +13,25 @@
 </div>
 
 <p align = 'center'>
-	<src img = ''>
+	<src img = '1.png'>
+</p>
+
+<p align = 'center'>
+	<src img = '2.png'>
+</p>
+
+<p align = 'center'>
+	<src img = '3.png'>
+</p>
+
+<p align = 'center'>
+	<src img = '4.png'>
+</p>
+
+<p align = 'center'>
+	<src img = '5.png'>
+</p>
+
+<p align = 'center'>
+	<src img = '6.png'>
 </p>
