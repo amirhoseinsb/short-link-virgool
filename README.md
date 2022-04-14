@@ -13,25 +13,25 @@
 </div>
 
 <p align = 'center'>
-	<img src = '1.png'>
+	<img src = '1.png'/>
 </p>
 
 <p align = 'center'>
-	<img src = '2.png'>
+	<img src = '2.png'/>
 </p>
 
 <p align = 'center'>
-	<img src = '3.png'>
+	<img src = '3.png'/>
 </p>
 
 <p align = 'center'>
-	<img src = '4.png'>
+	<img src = '4.png'/>
 </p>
 
 <p align = 'center'>
-	<img src = '5.png'>
+	<img src = '5.png'/>
 </p>
 
 <p align = 'center'>
-	<img src = '6.png'>
+	<img src = '6.png'/>
 </p>
