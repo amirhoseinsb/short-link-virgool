@@ -27,7 +27,7 @@ def request_(url):
     url = (url)
     req = session.get(url) # request to url
     if req.status_code == 200:
-        print(f"connection is ok :{req.status_code}")
+        print(f"\nconnection is ok :{req.status_code}")
         web_content = req.content
     
 
@@ -35,7 +35,9 @@ def filter(response):
     soup = BeautifulSoup(response,"html.parser")
     short_link = soup.select_one(".shorturl-input") # filter the web page
     slv = short_link.find("span").text.replace("\n","").strip() # slv is short link virgool
-    print(f"short link is : {slv}")
+    print(f"""
+----------------------------------------
+short link is : {slv}""")
 
 
 
