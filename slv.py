@@ -18,6 +18,8 @@ Created By : Amirhoseinsohrabi
 Gmail : amirhoseinsohrabi.official@gmail.com
 --------------------------------------------
 
+1 : Print The first ten posts links
+2 : Print The Short Link a Post
         """
     )
 def request_(url):
@@ -31,7 +33,7 @@ def request_(url):
         web_content = req.content
     
 
-def filter(response):
+def filter_(response): # print the short link
     soup = BeautifulSoup(response,"html.parser")
     short_link = soup.select_one(".shorturl-input") # filter the web page
     slv = short_link.find("span").text.replace("\n","").strip() # slv is short link virgool
@@ -39,11 +41,23 @@ def filter(response):
 ----------------------------------------
 short link is : {slv}""")
 
+def filter10(response):# print the 10 page link
+    soup = BeautifulSoup(response , "html.parser")
+    url_link = soup.select('.streamItem-caption a')
+    for i in url_link:
+        tag = i.h3
+        print(tag.string)
+        print(i.get('href'))
 
 
-
-
+def switch(number):
+    if number == 1:
+        request_(input("Paste the Profile link ! :"))
+        filter10(web_content)
+    elif number == 2:
+        request_(input("Paste the link ! :"))
+        filter_(web_content)
+               
 
 banner()
-request_(input("Please Enter the link ! :"))
-filter(web_content)
+switch(int(input("please Enter The Number! : ")))
